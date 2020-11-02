@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613505660811",
+    "firebase_url": "https://soulmateproject-b941d.firebaseio.com",
+    "project_id": "soulmateproject-b941d",
+    "storage_bucket": "soulmateproject-b941d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613505660811:android:589526b41b8798a652a18e",
+        "android_client_info": {
+          "package_name": "kr.hs.emirim.s2019s40.soulmateproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613505660811-755i0tuoa1es3dckb01t8aj5i1viu6f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.hs.emirim.s2019s40.soulmateproject",
+            "certificate_hash": "503918b07964bc69ec144e2f160fb968534a3be3"
+          }
+        },
+        {
+          "client_id": "613505660811-gtgh1irkt8693vtqf5haj01dob7aemsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6wnf23SDwA5zctGFiVo-38OcYNiwo1a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613505660811-gtgh1irkt8693vtqf5haj01dob7aemsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
