@@ -35,6 +35,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     compile 'com.google.firebase:firebase-database:16.0.4'
+    compile 'com.squareup.retrofit2:retrofit:2.4.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.4.0'
 
 }
 apply plugin: 'com.google.gms.google-services'

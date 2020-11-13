@@ -21,10 +21,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/login_PW" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/login_ID"
         android:layout_width="292dp"
         android:layout_height="54dp"
         android:layout_marginStart="62dp"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="57dp"
         android:layout_marginRight="57dp"
         android:ems="10"
-        android:hint="아이디"
+        android:hint="이메일"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/login_PW"
         android:layout_width="295dp"
         android:layout_height="55dp"
         android:layout_marginStart="62dp"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/login_ID" />
 
     <TextView
         android:id="@+id/t_login"

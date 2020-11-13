@@ -50,7 +50,7 @@
         android:layout_marginRight="19dp"
         android:text="이름: "
         android:textSize="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/sName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,12 +65,12 @@
         android:layout_marginRight="14dp"
         android:text="아이디: "
         android:textSize="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toStartOf="@+id/sID"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/sName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/sID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -96,7 +96,7 @@
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintStart_toEndOf="@+id/id"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/sName" />
 
     <Button
         android:id="@+id/button5"
@@ -107,12 +107,12 @@
         android:layout_marginTop="180dp"
         android:layout_marginBottom="78dp"
         android:text="아이디      중복확인"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress3"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/sEmail"
+        app:layout_constraintStart_toEndOf="@+id/sID"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/password"
+        android:id="@+id/login_PW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -122,12 +122,12 @@
         android:layout_marginRight="10dp"
         android:text="비밀번호: "
         android:textSize="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toStartOf="@+id/sPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/id" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/sPassword"
         android:layout_width="232dp"
         android:layout_height="48dp"
         android:layout_marginStart="10dp"
@@ -138,8 +138,8 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/password"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+        app:layout_constraintStart_toEndOf="@+id/login_PW"
+        app:layout_constraintTop_toBottomOf="@+id/sID" />
 
     <TextView
         android:id="@+id/email"
@@ -152,12 +152,12 @@
         android:layout_marginRight="13dp"
         android:text="이메일:"
         android:textSize="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextEmailAddress3"
+        app:layout_constraintEnd_toStartOf="@+id/sEmail"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/login_PW" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/sEmail"
         android:layout_width="229dp"
         android:layout_height="42dp"
         android:layout_marginStart="13dp"
@@ -169,7 +169,7 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/email"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/sPassword" />
 
     <TextView
         android:id="@+id/text2"
@@ -184,7 +184,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3" />
+        app:layout_constraintTop_toBottomOf="@+id/sEmail" />
 
     <CheckBox
         android:id="@+id/checkBox1"
@@ -278,10 +278,11 @@
         android:layout_marginLeft="105dp"
         android:layout_marginEnd="106dp"
         android:layout_marginRight="106dp"
+        android:layout_marginBottom="49dp"
         android:text="완료"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="632dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
