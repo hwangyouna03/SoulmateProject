@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.PannePasta">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/pannepasta"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="빠네 파스타"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_access_time_24"
+                        android:text="30분 미만"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_person_24"
+                        android:text="1인분"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:drawableTop="@drawable/ic_baseline_star_24"
+                        android:text="중급"
+                        android:textSize="15sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+            </TableLayout>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="재료"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="주재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="바게트롤, 파스타면"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="부재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="양송이 버섯, 베이컨, 칵테일 새우,\n피망, 마늘, 슬라이스 치즈"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="85dp"
+                    android:text="우유 200ml, 생크림 100ml, 소금, 후추"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_marginLeft="85dp"
+                    android:text="(토핑은 취향대로 추가하거나 빼셔도 좋습니다!)"
+                    android:textSize="12sp"/>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:text="만드는 법"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step1"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1.빵 속을 파내 주세요.
+                     \n    너무 많이 파내면 파스타소스 때문에 흐물거릴 수 있어요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step2"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="2. 피망과 양파는 슬라이스 해서 준비해 주세요.
+                     \n    마늘도 같이 슬라이스 해주세요.
+                     \n    베이컨, 버섯은 원하는 크기로 썰어주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step3"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 냄비에 물과 소금 한꼬집, 식용유 조금을 넣고,
+                     \n    물이 끓으면 파스타면을 넣고 7분 정도 삶아 주세요.
+                     \n    그 후 채반에 받쳐 물기를 제거해 주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step4"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="4. 팬에 식용유 조금 두르고,
+                     \n    마늘과 베이컨을 넣어 중불로 2분정도 볶아주세요.
+                     \n    다음에 양파와 새우를, 그 다음엔 피망과 버섯을 넣고
+                     \n    중불로 2분 정도 볶아주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step5"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="5. 생크림과 우유를 넣고 센불로 끓여주다가
+                     \n    보글보글 끓으면 중불로 줄여준 뒤 면을 넣고
+                     \n    소스와 잘 섞어주세요.
+                     \n    입맞에 맞게 소금과 후추로 간을 맞춰주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step6"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="6. 슬라이스 치즈 한장을 넣고
+                     \n    잘 섞어준 뒤 불을 꺼주세요.
+                     \n    치즈는 생략 가능!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/pannepasta_step7"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="7. 속을 파낸 빵 속에 파스타를 넣어주면 완성!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="더욱 많은 레시피를 알고 싶다면?"
+                    android:textSize="16sp" />
+                <TableLayout>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <Button
+                            android:id="@+id/more_recipe1"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="만개의 레시피"/>
+                        <Button
+                            android:id="@+id/more_recipe2"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="이밥차"/>
+                    </TableRow>
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

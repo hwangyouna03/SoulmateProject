@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.MilkyouNabe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/milkyounabe"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="밀푀유 나베"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_access_time_24"
+                        android:text="15분 미만"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_person_24"
+                        android:text="4인분"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:drawableTop="@drawable/ic_baseline_star_24"
+                        android:text="쉬움"
+                        android:textSize="15sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+            </TableLayout>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="재료"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="주재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="샤브샤브용 고기, 알배추, \n깻잎, 버섯, 숙주"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="부재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="멸치, 다시마, 양파, 무, 물"
+                        android:textSize="16sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:text="만드는 법"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_weight="2"
+                    android:src="@drawable/milkyounabe_step1"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 물에 멸치, 다시마, 양파, 무를 넣고 끓여주세요.
+                     \n    물이 끓으면 다시마는 빼고, 10분정도 우려준 뒤,
+                     \n    간장 두 큰술을 넣고 체에 건더기를 걸러주세요. "
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/milkyounabe_step2"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="2.배추 ->  깻잎 -> 고기 순으로
+                     \n    차곡차곡 5층 정도 쌓아 준비해 주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/milkyounabe_step3"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 대략 4등분 정도 썰어주세요.
+                     \n    냄비 크기에 맞게 썰어주세요.
+                     \n    썰 때는 뒤집어서 썰어야 훨씬 썰기 편해요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/milkyounabe_step4"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="4. 냄비에 차곡 차곡 담아 가운데는 버섯을 넣어주세요.
+                     \n    육수는 2/3정도 넣은 뒤 팔팔 끓여주면 완성!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="더욱 많은 레시피를 알고 싶다면?"
+                    android:textSize="16sp" />
+                <TableLayout>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <Button
+                            android:id="@+id/more_recipe1"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="만개의 레시피"/>
+                        <Button
+                            android:id="@+id/more_recipe2"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="이밥차"/>
+                    </TableRow>
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

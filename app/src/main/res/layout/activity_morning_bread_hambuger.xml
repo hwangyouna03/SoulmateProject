@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.MorningBreadHambuger">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/morningbread_hambuger"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="모닝빵 햄버거"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_access_time_24"
+                        android:text="30분 미만"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_person_24"
+                        android:text="1인분"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:drawableTop="@drawable/ic_baseline_star_24"
+                        android:text="쉬움"
+                        android:textSize="15sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+            </TableLayout>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="재료"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="주재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="모닝빵, 오이, 토마토, 체다치즈"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="부재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="양배추, 당근, 파프리카, 호박, \n달걀, 밀가루, 소금, 후추
+                        \n케첩, 머스타드소스"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TextView
+                    android:layout_marginLeft="75dp"
+                    android:text="(토핑은 취향대로 추가하거나 빼셔도 좋습니다!)"
+                    android:textSize="12sp"/>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:text="만드는 법"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_weight="2"
+                    android:src="@drawable/morningbread_hambuger_step1"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 양배추, 당근, 파프리카, 호박을 다져주세요.
+                     \n    채소 다지기를 사용해도, 손으로 다져도 상관없습니다!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/morningbread_hambuger_step2"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="2. 다진 채소에 달걀, 밀가루를 넣은 뒤,
+                     \n    소금, 후추로 간을 해주세요.
+                     \n    살짝 꾸덕한 감이 있으면 반죽이 된거랍니다.
+                     \n    적당한 크기로 팬에 올려주고 노릇하게 익혀줍니다."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/morningbread_hambuger_step3"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 모닝빵을 반으로 자르고 머스타드->
+                     \n    토마토 -> 야채전 -> 체다체즈 -> 야채전 ->
+                     \n    케찹 -> 오이 -> 체다치즈 순으로 올려주세요.
+                     \n    그럼 맛있는 모닝빵 햄버거 완성!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="더욱 많은 레시피를 알고 싶다면?"
+                    android:textSize="16sp" />
+                <TableLayout>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <Button
+                            android:id="@+id/more_recipe1"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="만개의 레시피"/>
+                        <Button
+                            android:id="@+id/more_recipe2"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="이밥차"/>
+                    </TableRow>
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

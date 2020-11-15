@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.Kalguksu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/kalguksu"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="칼국수"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_access_time_24"
+                        android:text="60분 미만"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_person_24"
+                        android:text="2인분"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:drawableTop="@drawable/ic_baseline_star_24"
+                        android:text="쉬움"
+                        android:textSize="15sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+            </TableLayout>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="재료"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="주재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="칼국수 400g"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="부재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="당근, 양파, 호박, 부추, 대파\n물,, 국간장, 다진마늘, 소금, 후추"
+                        android:textSize="16sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:text="만드는 법"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_weight="2"
+                    android:src="@drawable/kalguksu_step1"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 물 8~9컵에 다시마, 멸치 등을 넣고 육수를 만들어주세요.
+                     \n    육수가 끓기 시작하면 다시마는 건저내주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/kalguksu_step2"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="2. 육수가 끓는 동안 채소들을 채쓸어 주고,
+                     \n    부추는 먹기 좋은 크기로 썰어주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/kalguksu_step3"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 육수가 다 끓었다면 육수 건더기를 건져내고,
+                     \n    칼국수 면을 찬불에 가볍게 헹구어 건져내 주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/kalguksu_step4"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="4. 육수에 면, 당근, 호박, 양파를 넣고 끓여주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/kalguksu_step5"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="5. 간장 두큰술, 다진마늘 한큰술, 후추, 소금
+                     \n    으로 간을 해준 다음 채소가 익으면 부추와 대파를 넣고
+                     \n    끓여주면 완성!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="더욱 많은 레시피를 알고 싶다면?"
+                    android:textSize="16sp" />
+                <TableLayout>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <Button
+                            android:id="@+id/more_recipe1"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="만개의 레시피"/>
+                        <Button
+                            android:id="@+id/more_recipe2"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="이밥차"/>
+                    </TableRow>
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

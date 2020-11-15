@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.SquidStirfry">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/squid_stirfry"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="오징어 볶음"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_access_time_24"
+                        android:text="30분 미만"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1.5"
+                        android:drawableTop="@drawable/ic_baseline_person_24"
+                        android:text="2인분"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:drawableTop="@drawable/ic_baseline_star_24"
+                        android:text="쉬움"
+                        android:textSize="15sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+            </TableLayout>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="재료"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="주재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="오징어"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_span="3">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:text="부재료"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:text="대파, 양파, 양배추, 고추장, 고추가루,\n간장, 다진마늘, 참기름, 설탕"
+                        android:textSize="16sp" />
+                </TableRow>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:text="만드는 법"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_weight="2"
+                    android:src="@drawable/squid_stirfry_step1"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="1. 채소, 오징어 모두 깨끗하게 씻어주세요.
+                    \n    채소는 적당한 크기로 자르고,
+                    \n    오징어는 다이아몬드 모양으로 칼집을 내준 후
+                    \n    적당한 크기로 잘라주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/squid_stirfry_step2"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="2. 팬에 기름을 두르고 대파를 넣어 파기름을 내준 후
+                     \n    잘라놓은 오징어를 넣고 설탕, 다진마늘을 넣어
+                     \n    가볍게 볶아주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/squid_stirfry_step3"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="3. 오징어가 하얗게 익어가는게 보일 정도일 때
+                     \n    고추장 한숟갈, 고추가루 세숟갈, 간장 다섯숫갈을 넣고
+                     \n    볶아주세요."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/squid_stirfry_step4"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="4. 물 2/3을 넣어주세요.
+                     \n    만약 채소의 양이 많다면 생략하셔도 괜찮습니다."
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/squid_stirfry_step5"
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="5. 양파와 양배추를 넣어준 뒤
+                     \n    양념이 잘 베이게 볶아주다가 마지막으로
+                     \n    참기름을 넣으면 완성!"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#E5E5E5"
+                    android:layout_width="380dp"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="더욱 많은 레시피를 알고 싶다면?"
+                    android:textSize="16sp" />
+                <TableLayout>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <Button
+                            android:id="@+id/more_recipe1"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="만개의 레시피"/>
+                        <Button
+                            android:id="@+id/more_recipe2"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="@color/light_gray"
+                            android:textSize="13sp"
+                            android:textColor="@color/black"
+                            android:text="이밥차"/>
+                    </TableRow>
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -6,5 +6,9 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="NoActionbar" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+    </style>
+
 
 </resources>

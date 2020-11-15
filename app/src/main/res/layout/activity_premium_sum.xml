@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.PremiumSum"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/premium_sum"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="프리미엄 섬"
+                        android:textStyle="bold"
+                        android:textSize="30sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="고급스럽게 식사할 수 있는 프라이빗 가게"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="한 타임당 한 팀만 받는 프라이빗한 공간에서
+                        \n고급스럽게 식사할 수 있는 프리미엄 오마카세!
+                        \n100% 예약제이며, 한번 방문한 고객님은 단골이 될 수 밖에 없는
+                        \n퀄리티와 정성을 자부합니다."
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="시간"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="운영"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="12:00AM─13:30PM(런치 1부)
+                        \n14:00PM─15:30PM(런치 2부)
+                        \n\n17:30PM─20:00PM(디너 1부)
+                        \n20:30PM─23:00PM(디너 2부)"
+                        android:textSize="14sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="주소"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="서울 관악구 관악로 195 109-110호
+                        \n서울대입구역 6번 출구에서 181m"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="7dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:drawableLeft="@drawable/call"
+                        android:text="  0507-1465-7896"
+                        android:textSize="15sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp"
+                    android:layout_span="2"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/premium_sum_map"
+                        android:layout_width="300dp"
+                        android:backgroundTint="@color/light_gray"
+                        android:text="지도 보기"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="메뉴"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="런치 오마카세"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="50,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="한 타임당 한팀만 받습니다. 최소 2인 이상"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="디너 오마카세"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="90,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="한 타임당 한팀만 받습니다. 최소 2인 이상"
+                    android:textSize="13sp" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:textSize="5sp" />
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

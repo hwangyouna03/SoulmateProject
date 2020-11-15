@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.PFChangs"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/p_f_changs"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="피에프 창"
+                        android:textStyle="bold"
+                        android:textSize="30sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="맛있는 녀석들에도 나온 미국식 중국요리"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="시간"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="운영"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="11:00AM─22:30PM"
+                        android:textSize="16sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="3dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="마지막 주문"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="22:30PM"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="주소"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="서울 강남구 여동대로 513 코엑스\n보은사역 7번 출구에서 102m"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="7dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:drawableLeft="@drawable/call"
+                        android:text="  02-551-4588"
+                        android:textSize="15sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp"
+                    android:layout_span="2"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/p_f_changs_map"
+                        android:layout_width="300dp"
+                        android:backgroundTint="@color/light_gray"
+                        android:text="지도 보기"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="메뉴"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="로 메인"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="17,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="각종 야채와 육류를 피에프창 만의 독특한\n에그누들로 볶아낸 스페셜 면"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="창스 치킨 레터스 랩"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="145,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="다진 닭고기와 버섯,물밤 등을 소스와 함께
+                    \n볶아 바삭하게 튀긴 라이스틱을 곁들여
+                    \n양상추에 싸서 함께 먹는 요리"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="창스 프라이드 라이스 "
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="16,800원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="각종야채와 육류가 들어간 피에프창의 대표 볶음밥"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="세사미 치킨"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="19,900원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="바삭하게 튀긴 닭고기, 피망, 브로컬리를 참깨소스에
+                    \n볶아낸 고소한 맛이 나는 요리"
+                    android:textSize="13sp" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:textSize="5sp" />
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

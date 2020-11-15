@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.ArongStarTable"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/star_table"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="아롱별 식탁"
+                        android:textStyle="bold"
+                        android:textSize="30sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="나만 알고 싶은 혼밥하기 좋은 곳"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="아롱다롱 빛나는 별처럼 아름다운 식탁
+                        \n모든 소스는 매장에서 직접 만들고 있어 좋은 맛을 자랑한다."
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="시간"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="운영"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="12:00AM─23:59PM"
+                        android:textSize="16sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="3dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="매주 일요일 휴무"
+                        android:textSize="14sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="주소"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="서울 관악구 봉천로 14길 27 아롱별 식탁 \n신림역 7번 출구에서 348m"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="7dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:drawableLeft="@drawable/call"
+                        android:text="  02-830-1233"
+                        android:textSize="15sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp"
+                    android:layout_span="2"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/arong_star_table_map"
+                        android:layout_width="300dp"
+                        android:backgroundTint="@color/light_gray"
+                        android:text="지도 보기"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="메뉴"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="연어장 덮밥"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="9,500원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="연어 추가 4,000원"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="계란덮은 가지 덮밥"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="8,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="고추장 소스 가능"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="치즈 굴소스 제육 덮밥"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="8,500원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="삼겹 많이 덮밥(200g)"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="9,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="삼겹 추가 4,000원"
+                    android:textSize="13sp" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:textSize="5sp" />
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

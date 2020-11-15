@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.WolfgangsSteakHouse"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/wolfgangs_steakhouse"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="울프강 스테이크 하우스"
+                        android:textStyle="bold"
+                        android:textSize="30sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="청담동 스테이크 맛있는 곳"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="시간"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="운영"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="11:00AM─23:00PM\n런치 11:00AM ~ 15:00PM\n디너 16:00PM ~ 23:00PM"
+                        android:textSize="17sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="주소"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="서울 강남구 선릉로 152길 21\n압구정로데오역 4번 출구에서 365m"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="7dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:drawableLeft="@drawable/call"
+                        android:text="  0507-1486-8700"
+                        android:textSize="15sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp"
+                    android:layout_span="2"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/wolfgang_steak_house_map"
+                        android:layout_width="300dp"
+                        android:backgroundTint="@color/light_gray"
+                        android:text="지도 보기"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="메뉴"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="포터 하우스 스테이크"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="253,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="USDA PRIME등급,
+                    \n28일 이상의 DRY-AGING을 거친 최상급 스테이크"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="더블유(W) 코스(1인)"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="178,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="포터 하우스 스테이크와 추천 에피타이저,
+                    \n인기 사이드 메뉴, 디저트 까지 구성되어 있는 코스 메뉴"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="클래식 코스(1인)"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="148,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="코리아 인기메뉴와 \n시그니처 스테이크로 구성된 코스 메뉴"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="청담 런치 코스(6코스/1인)"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="93,000원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:textSize="5sp" />
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

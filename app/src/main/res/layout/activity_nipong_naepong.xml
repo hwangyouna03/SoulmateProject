@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.NipongNaepong"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/nipongneapong"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="니뽕 내뽕"
+                        android:textStyle="bold"
+                        android:textSize="30sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="국밥보다 파스타보다 뜨뜻한 크림로제 짬뽕"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="전 세계 사람들이 즐겨먹는 면 요리를 퓨전화한 니뽕내뽕은 \n기존 면 요리의 이미지와 편견을 깨고,
+항상 새로운 트렌드와 \n향상된 메뉴를 선보여 단순요리를 넘어선 끼와 개성, 그리고 \n창의가 넘치는 면 요리를 추구합니다."
+                        android:textSize="15sp"
+                        android:layout_marginBottom="13dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="시간"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="운영"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="11:30AM─22:00PM"
+                        android:textSize="16sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="3dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="Break Time"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="15:50PM ~ 17:10PM"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="주소"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="서울 광진구 동이로 20길 60 연일 빌딩\n건대입구역 6번 출구에서 195m"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="3dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:drawableLeft="@drawable/call"
+                        android:text="  02-499-1828"
+                        android:textSize="15sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp"
+                    android:layout_span="2"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/nipong_naepong_map"
+                        android:layout_width="300dp"
+                        android:backgroundTint="@color/light_gray"
+                        android:text="지도 보기"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textSize="5sp"/>
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="메뉴"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="차뽕"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="6,900원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="매콤한 짬뽕에 강렬한 불 맛을 더한 \n니뽕내뽕 베스트 메뉴"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="크뽕"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="8,500원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="크림소스와 불향의 만남! 부드럽고 고소한 맛으로 \n니뽕내뽕 최애 메뉴"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="로뽕"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="8,500원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="장미빛 로제소스와 모짜렐라 치즈의 하모니, \n니뽕내뽕 베스트 메뉴"
+                    android:textSize="13sp" />
+                <TableRow
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="니피자(고구마)"
+                        android:textSize="17sp"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:text="9,900원"
+                        android:textSize="15sp"
+                        android:textAlignment="inherit"/>
+                </TableRow>
+                <TextView
+                    android:text="고구마 토핑 피자를 딥소스에 찍어먹는 피자.
+                    \n달콤하고 고소한 맛에 남녀노소 모두 선호하는 베스트 메뉴"
+                    android:textSize="13sp" />
+                <TableRow>
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:textSize="5sp" />
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E5E5E5"
+                android:layout_width="380dp"
+                android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
