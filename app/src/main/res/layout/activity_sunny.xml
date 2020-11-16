@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="660dp"
         android:gravity="center"
-        android:text="여기에는 랜덤을 이용해 하루의 명언?\n 같은거 있음 좋겠다."/>
+        android:text="오늘 날씨는 맑음이에요\n날씨가 맑은 만큼 기분 좋은 하루를 보낼 수 있겠죠?\n맑은 날씨를 잘 보내기 위한 당신을 위해\n음식, 옷, 장소를 추천해드려요 :)\n\n오늘 하루도 날씨처럼 기분 좋은 하루 보내세요 !"/>
 
     <LinearLayout
         android:layout_width="match_parent"

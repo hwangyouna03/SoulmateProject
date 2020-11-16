@@ -15,14 +15,14 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp">
+            android:layout_height="360dp">
 
             <ImageView
                 android:id="@+id/image"
                 android:src="@drawable/helpforme"
                 android:scaleType="centerCrop"
                 android:layout_width="match_parent"
-                android:layout_height="200dp" />
+                android:layout_height="220dp" />
 
             <TextView
                 android:id="@+id/title"
@@ -41,7 +41,7 @@
                 android:layout_marginTop="3dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:maxLines="4"
+                android:maxLines="5"
                 android:drawablePadding="10dp"
                 android:ellipsize="end"
                 android:text="Description"

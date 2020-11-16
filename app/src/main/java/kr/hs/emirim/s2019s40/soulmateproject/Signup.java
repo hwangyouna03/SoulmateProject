@@ -29,6 +29,7 @@ import java.util.HashMap;
 //아직 아이디 중복확인 기능이랑 체크박스 기능 안했음
 public class Signup extends AppCompatActivity {
     private static final String TAG = "Signup";
+    //버튼 & text 등록
     EditText sPassword, sEmail, sName;
     Button ok;
     private FirebaseAuth firebaseAuth; //파이어베이스 인스턴스 선언
@@ -43,15 +44,15 @@ public class Signup extends AppCompatActivity {
 
     }
 
+    //사용자가 현재 로그인되어 있는지 확인
     @Override
     public void onStart() {
         super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = firebaseAuth.getCurrentUser();
 
     }
 
-
+    //ok 버튼 이벤트 처리 -> firebase 데이터 저장
     View.OnClickListener onClickListener = new View.OnClickListener() {
         public void onClick(View v) {
             switch (v.getId()) {
@@ -81,26 +82,26 @@ public class Signup extends AppCompatActivity {
 //            }
 //        });
 //    }
-
+    //회원가입 기능 메서드
     private void signup() {
+        //가입 정보 가져오기
         String email = ((EditText) findViewById(R.id.sEmail)).getText().toString();
         String password = ((EditText) findViewById(R.id.sPassword)).getText().toString();
+        //신규 계정 등록
         firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
+                        if (task.isSuccessful()) { //가입 성공시
                             FirebaseUser user = firebaseAuth.getCurrentUser();
-                            Intent intent = new Intent(Signup.this, MainActivity.class);
+                            Intent intent = new Intent(Signup.this, MainActivity.class);//가입화면 빠져나감
                             Toast.makeText(getApplicationContext(), "회원가입되었습니다.",
                                     Toast.LENGTH_SHORT).show();
                             startActivity(intent);
-                            //성공
                         } else {
                             if(task.getException() != null){
                                 Toast.makeText(Signup.this, "회원가입 양식을 다 작성하였는지 확인해주십시오.",
                                         Toast.LENGTH_SHORT).show();
-                                //실패
                             }
 
                         }

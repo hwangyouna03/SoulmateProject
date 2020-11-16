@@ -1,6 +1,7 @@
 package kr.hs.emirim.s2019s40.soulmateproject;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,17 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
+import kr.hs.emirim.s2019s40.soulmateproject.Place.CampVR;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.CheeseTemapark;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.DgrandBlueStudio;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.HwanseonCave;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.RealGunShot;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.RoofAndCloud;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.RunningmanExperience;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.SportMonster;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.ToginMarket;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.YouthWorkShop;
 
 public class Cloudy_RecyclerView_Adapter extends RecyclerView.Adapter<Cloudy_RecyclerView_Adapter.ViewHolder> {
     Context context;
@@ -41,66 +53,56 @@ public class Cloudy_RecyclerView_Adapter extends RecyclerView.Adapter<Cloudy_Rec
         holder.cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                if (position==0) {
-//                    Intent intent = new Intent(v.getContext(), JadeGarden.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                 else if(position == 1){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 2){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 3){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 4){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 5){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 6){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 7){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 8){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 9){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 10){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 11){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
+                if (position==0) {
+                    Intent intent = new Intent(v.getContext(), DgrandBlueStudio.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                 else if(position == 1){
+                    Intent intent = new Intent(v.getContext(), RunningmanExperience.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 2){
+                    Intent intent = new Intent(v.getContext(), RoofAndCloud.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 3){
+                    Intent intent = new Intent(v.getContext(), RealGunShot.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 4){
+                    Intent intent = new Intent(v.getContext(), SportMonster.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 5){
+                    Intent intent = new Intent(v.getContext(), CheeseTemapark.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 6){
+                    Intent intent = new Intent(v.getContext(), YouthWorkShop.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 7){
+                    Intent intent = new Intent(v.getContext(), CampVR.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 8){
+                    Intent intent = new Intent(v.getContext(), ToginMarket.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 9){
+                    Intent intent = new Intent(v.getContext(), HwanseonCave.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
             }
         });
     }

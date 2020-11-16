@@ -28,8 +28,74 @@
         <activity android:name=".Rain_and_Snow_Food" />
         <activity android:name=".Rain_and_Snow_Place" />
         <activity
+            android:name=".Place.DarkCafe"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.Shapes"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.VauncePark"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.DynamicMaze"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.AnimalZoo"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.ToginMarket"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.CampVR"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.YouthWorkShop"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.SportMonster"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.RealGunShot"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.RoofAndCloud"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.RunningmanExperience"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.DgrandBlueStudio"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.HwanseonCave"
+            android:theme="@style/NoActionbar"/>
+        <activity android:name=".Place.FlyingGyeonju"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.JadenGarden"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.CheeseTemapark"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.SwissTemapark"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.SongdoMarineCableCar"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.PrettyFrance"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.Botania"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Place.WindHill"
+            android:theme="@style/NoActionbar"/>
+        <activity
             android:name=".Place.ArtVillage"
             android:theme="@style/NoActionbar" />
+
             <activity
                 android:name=".Food.SeaFoodNurungjisoup"
                 android:theme="@style/NoActionbar" />

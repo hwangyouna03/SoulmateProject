@@ -17,6 +17,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import kr.hs.emirim.s2019s40.soulmateproject.Place.ArtVillage;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.Botania;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.CheeseTemapark;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.FlyingGyeonju;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.HwanseonCave;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.JadenGarden;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.PrettyFrance;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.SongdoMarineCableCar;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.SwissTemapark;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.WindHill;
 
 public class Sunny_RecyclerView_Adapter extends RecyclerView.Adapter<Sunny_RecyclerView_Adapter.ViewHolder> {
     Context context;
@@ -44,13 +53,13 @@ public class Sunny_RecyclerView_Adapter extends RecyclerView.Adapter<Sunny_Recyc
         holder.cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*if (position == 0) {
-                    Intent intent = new Intent(v.getContext(), MainActivity.class);
+                if (position == 0) {
+                    Intent intent = new Intent(v.getContext(), WindHill.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 1){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), Botania.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
@@ -60,45 +69,41 @@ public class Sunny_RecyclerView_Adapter extends RecyclerView.Adapter<Sunny_Recyc
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 3){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), PrettyFrance.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 4){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), SongdoMarineCableCar.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 5){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), SwissTemapark.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 6){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), CheeseTemapark.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 7){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), JadenGarden.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
+
                 else if(position == 8){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), FlyingGyeonju.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
                 else if(position == 9){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
+                    Intent intent = new Intent(v.getContext(), HwanseonCave.class);
                     //intent.putExtra("param", models.get(position).getTitle());
                     v.getContext().startActivity(intent);
                 }
-                else if(position == 10){
-                    Intent intent = new Intent(v.getContext(), AppMain.class);
-                    //intent.putExtra("param", models.get(position).getTitle());
-                    v.getContext().startActivity(intent);
-                }*/
             }
         });
     }

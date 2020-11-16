@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content">
                 <TableRow>
                     <TextView
-                        android:text="표"
+                        android:text="이용금액"
                         android:textStyle="bold"
                         android:textSize="20sp"/>
                 </TableRow>
@@ -148,7 +148,7 @@
                         android:id="@+id/art_village_ticket"
                         android:layout_width="300dp"
                         android:backgroundTint="@color/light_gray"
-                        android:text="표 예매 하기"
+                        android:text="예매 하기"
                         android:textSize="15sp"
                         android:textColor="@color/black"/>
                 </TableRow>

@@ -16,6 +16,17 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import kr.hs.emirim.s2019s40.soulmateproject.Place.AnimalZoo;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.CampVR;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.DarkCafe;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.DynamicMaze;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.RealGunShot;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.RunningmanExperience;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.Shapes;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.SportMonster;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.VauncePark;
+import kr.hs.emirim.s2019s40.soulmateproject.Place.YouthWorkShop;
+
 public class Rain_and_Snow_RecyclerView_Adapter extends RecyclerView.Adapter<Rain_and_Snow_RecyclerView_Adapter.ViewHolder> {
     Context context;
     List<RecyclerView_Model> items;
@@ -42,66 +53,56 @@ public class Rain_and_Snow_RecyclerView_Adapter extends RecyclerView.Adapter<Rai
         holder.cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                if (position==0) {
-//                    Intent intent = new Intent(v.getContext(), JadeGarden.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                 else if(position == 1){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 2){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 3){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 4){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 5){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 6){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 7){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 8){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 9){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 10){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
-//                else if(position == 11){
-//                    Intent intent = new Intent(v.getContext(), AppMain.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    v.getContext().startActivity(intent);
-//                }
+                if (position==0) {
+                    Intent intent = new Intent(v.getContext(), AnimalZoo.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                 else if(position == 1){
+                    Intent intent = new Intent(v.getContext(), RunningmanExperience.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 2){
+                    Intent intent = new Intent(v.getContext(), DynamicMaze.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 3){
+                    Intent intent = new Intent(v.getContext(), RealGunShot.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 4){
+                    Intent intent = new Intent(v.getContext(), VauncePark.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 5){
+                    Intent intent = new Intent(v.getContext(), Shapes.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 6){
+                    Intent intent = new Intent(v.getContext(), SportMonster.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 7){
+                    Intent intent = new Intent(v.getContext(), DarkCafe.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 8){
+                    Intent intent = new Intent(v.getContext(), YouthWorkShop.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
+                else if(position == 9){
+                    Intent intent = new Intent(v.getContext(), CampVR.class);
+                    //intent.putExtra("param", models.get(position).getTitle());
+                    v.getContext().startActivity(intent);
+                }
             }
         });
     }
