@@ -4,7 +4,7 @@
     package="kr.hs.emirim.s2019s40.soulmateproject">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,8 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Login"/>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/network_config" />
+
+        <activity android:name=".Login" />
         <activity android:name=".Signup" />
         <activity android:name=".Sunny" />
         <activity android:name=".Sunny_Dress" />
@@ -29,302 +34,302 @@
         <activity android:name=".Rain_and_Snow_Place" />
         <activity
             android:name=".Place.DarkCafe"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.Shapes"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.VauncePark"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.DynamicMaze"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.AnimalZoo"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.ToginMarket"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.CampVR"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.YouthWorkShop"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.SportMonster"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.RealGunShot"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.RoofAndCloud"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.RunningmanExperience"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.DgrandBlueStudio"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.HwanseonCave"
-            android:theme="@style/NoActionbar"/>
-        <activity android:name=".Place.FlyingGyeonju"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Place.FlyingGyeonju"
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.JadenGarden"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.CheeseTemapark"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.SwissTemapark"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.SongdoMarineCableCar"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.PrettyFrance"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.Botania"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.WindHill"
-            android:theme="@style/NoActionbar"/>
+            android:theme="@style/NoActionbar" />
         <activity
             android:name=".Place.ArtVillage"
             android:theme="@style/NoActionbar" />
-
-            <activity
-                android:name=".Food.SeaFoodNurungjisoup"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.HotChocolate"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ToumbaPasta"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.CornCheese"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Kalguksu"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ChickenSteak"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.AbalonePorridge"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.JstyleSteamedEggs"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.JstyleStirfiryUdon"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.SquidStirfry"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BeefBrisketbeanSprouts"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Sangria"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.RicePizza"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.RiceBuger"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.MilkyouNabe"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.RiceCakeSkewer"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.SirloinSteak"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.KkanpungTofu"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ChickenKebabs"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.CarbonaraTteokbokki"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.CrabCroquette"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.KimchiBulgogiBurrtio"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PotatoShirmpRice"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Gambas"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PikachuPorkcutlet"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ChopSteak"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BeefVegetableMari"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PorkBellyKimbap"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BlueberryYogurtSmoothie"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Brownie"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BaconEggCup"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.MorningBreadHambuger"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PannePasta"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.StrawBerryAde"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ChickenSoup"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Okonomiyaki"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.KimchiFriedRice"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.HongKongBanjeom"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Koyako"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.GinMaratang"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Amar"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ArongStarTable"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Suchiichiza"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BugerLab"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.MukMyeokSanBang"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.DongGiGan"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.DoChef"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ChickenCompany"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PotatoPizza"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PFChangs"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.PremiumSum"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.LogHouseDakgalbi"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.TanksTakbogi"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ItaliPaPa"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.WolfgangsSteakHouse"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.AllThePlate"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Otoya"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.ZeroNineKitchen"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.YankeeChicken"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.AppleHouse"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.AlexsPlace"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.SuhebokMaratang"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.MountainFarm"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BimBom"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.VaultSteakHouse"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BisonBurger"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.RedBrick"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.Lasiestar"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.DesigneryCafe"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.HeartyMeal"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.TokyoWalk"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.TheMeltingPot"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.LegsHouse"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.NipongNaepong"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.FearlessRabbit_Kit"
-                android:theme="@style/NoActionbar" />
-            <activity
-                android:name=".Food.BltStake"
-                android:theme="@style/NoActionbar"/>
-            <activity android:name=".MainActivity">
+        <activity
+            android:name=".Food.SeaFoodNurungjisoup"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.HotChocolate"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ToumbaPasta"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.CornCheese"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Kalguksu"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ChickenSteak"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.AbalonePorridge"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.JstyleSteamedEggs"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.JstyleStirfiryUdon"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.SquidStirfry"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BeefBrisketbeanSprouts"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Sangria"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.RicePizza"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.RiceBuger"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.MilkyouNabe"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.RiceCakeSkewer"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.SirloinSteak"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.KkanpungTofu"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ChickenKebabs"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.CarbonaraTteokbokki"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.CrabCroquette"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.KimchiBulgogiBurrtio"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PotatoShirmpRice"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Gambas"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PikachuPorkcutlet"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ChopSteak"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BeefVegetableMari"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PorkBellyKimbap"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BlueberryYogurtSmoothie"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Brownie"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BaconEggCup"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.MorningBreadHambuger"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PannePasta"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.StrawBerryAde"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ChickenSoup"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Okonomiyaki"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.KimchiFriedRice"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.HongKongBanjeom"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Koyako"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.GinMaratang"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Amar"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ArongStarTable"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Suchiichiza"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BugerLab"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.MukMyeokSanBang"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.DongGiGan"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.DoChef"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ChickenCompany"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PotatoPizza"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PFChangs"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.PremiumSum"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.LogHouseDakgalbi"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.TanksTakbogi"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ItaliPaPa"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.WolfgangsSteakHouse"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.AllThePlate"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Otoya"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.ZeroNineKitchen"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.YankeeChicken"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.AppleHouse"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.AlexsPlace"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.SuhebokMaratang"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.MountainFarm"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BimBom"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.VaultSteakHouse"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BisonBurger"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.RedBrick"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.Lasiestar"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.DesigneryCafe"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.HeartyMeal"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.TokyoWalk"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.TheMeltingPot"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.LegsHouse"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.NipongNaepong"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.FearlessRabbit_Kit"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.BltStake"
+            android:theme="@style/NoActionbar" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -332,4 +337,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
