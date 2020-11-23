@@ -112,52 +112,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/signup"
         app:layout_constraintStart_toStartOf="parent" />
-    <TextView
-        android:id="@+id/WeatherInfo"
-        android:layout_width="224dp"
-        android:layout_height="196dp"
-        android:layout_marginStart="178dp"
-        android:layout_marginLeft="178dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="176dp"
-        android:layout_marginRight="176dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CloudyActivity" />
-
-
-
-    <EditText
-        android:id="@+id/search"
-        android:layout_width="190dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="244dp"
-        android:layout_marginEnd="111dp"
-        android:layout_marginRight="111dp"
-        android:hint="enter text to search"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginRight="13dp"
-        android:text="Button"
+        android:id="@+id/weatherbtn"
+        android:layout_width="329dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:text="오늘의 날씨에 맞게 추천 받으세요 !\n날씨 검색하러 가기"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/search"
-        app:layout_constraintTop_toBottomOf="@+id/Rain_and_Snow_Activity"
-        android:onClick="mOnClick"
-       />
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CloudyActivity" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
