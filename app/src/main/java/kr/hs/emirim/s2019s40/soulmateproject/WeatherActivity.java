@@ -99,7 +99,7 @@ public class WeatherActivity extends AppCompatActivity {
                             buffer.append("\n");//줄바꿈 문자 추가
                         }
                         else if(tag.equals("announceTime")){
-                            buffer.append("발표시간: ");
+                            buffer.append("발표시간(년월일시간): ");
                             xpp.next();
                             buffer.append(xpp.getText());
                             buffer.append("\n");//줄바꿈 문자 추가

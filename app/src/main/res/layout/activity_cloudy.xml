@@ -9,9 +9,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="660dp"
+        android:layout_height="0dp"
+        android:layout_weight="8"
         android:gravity="center"
-        android:text="오늘은 구름이 낀 날이에요 ㅠㅠ\n하늘은 우중충하지만 활기찬 하루를 보낼 수 있을 거예요.\n\n구름이 낀 오늘 같은 날,\n 장소와 음식, 옷을 추천받아보는 건 어떨까요?\n\n오늘 하루 날씨보다 더 좋은 하루 보내세요!"/>
+        android:text="오늘은 구름이 낀 날이에요 ㅠㅠ \n 하늘은 우중충하지만 활기찬 하루를 보낼 수 있을거에요. \n\n구름이 낀 오늘 같은 날,\n 장소와 음식, 옷을 추천받아보는 건 어떨까요?\n 오늘 하루 날시보다 더 좋은 하루 보내세요!"/>
 
     <LinearLayout
         android:layout_width="match_parent"

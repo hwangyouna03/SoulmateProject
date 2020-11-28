@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="37dp"
         android:layout_marginLeft="37dp"
-        android:layout_marginTop="146dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
         android:text="이름: "
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="49dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="102dp"
         android:layout_marginRight="102dp"
         android:ems="10"
@@ -69,28 +69,13 @@
         app:layout_constraintStart_toEndOf="@+id/name"
         app:layout_constraintTop_toBottomOf="@+id/text" />
 
-    <Button
-        android:id="@+id/check"
-        android:layout_width="84dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginBottom="78dp"
-        android:text="이메일      중복확인"
-        app:layout_constraintBottom_toTopOf="@+id/sEmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/sEmail"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <TextView
         android:id="@+id/login_PW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="비밀번호: "
@@ -105,14 +90,14 @@
         android:layout_height="48dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="78dp"
         android:layout_marginRight="78dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/login_PW"
-        app:layout_constraintTop_toBottomOf="@+id/check" />
+        app:layout_constraintTop_toBottomOf="@+id/explain" />
 
     <TextView
         android:id="@+id/email"
@@ -120,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="13dp"
         android:layout_marginRight="13dp"
         android:text="이메일:"
@@ -133,14 +118,14 @@
         android:id="@+id/sEmail"
         android:layout_width="229dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toStartOf="@+id/check"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/email"
         app:layout_constraintTop_toBottomOf="@+id/sName" />
 
@@ -150,12 +135,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="89dp"
         android:layout_marginLeft="89dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="89dp"
         android:layout_marginRight="89dp"
         android:text="자신에 해당하는 항목을 선택해주세요 :-)"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sPassword" />
 
@@ -249,15 +234,15 @@
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
         android:layout_marginLeft="105dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="106dp"
         android:layout_marginRight="106dp"
-        android:layout_marginBottom="72dp"
         android:text="완료"
         android:textSize="18dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
 
     <TextView
         android:id="@+id/explain"
@@ -265,13 +250,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="89dp"
         android:layout_marginLeft="89dp"
+        android:layout_marginTop="11dp"
         android:layout_marginEnd="62dp"
         android:layout_marginRight="62dp"
-        android:layout_marginBottom="10dp"
         android:text="※비밀번호는 8글자이상으로 작성해주십시오※"
         android:textColor="#EC8A8A"
-        app:layout_constraintBottom_toTopOf="@+id/sPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,10 +20,8 @@ public class Sunny_Dress extends AppCompatActivity {
         setContentView(R.layout.activity_sunny_dress);
 
         models = new ArrayList<>();
-        models.add(new ViewPager_Model(R.drawable.helpforme, "목적지", "어디로 여행을 갈지 골라보자"));
-        models.add(new ViewPager_Model(R.drawable.helpforme, "숙소", "근처 숙소들을 찾아보고 숙소 가격을 알아보자"));
-        models.add(new ViewPager_Model(R.drawable.helpforme, "장보기", "무엇을 사고 대충 비용이 얼마나 드는지 알아보자"));
-        models.add(new ViewPager_Model(R.drawable.helpforme, "이동수단", "어떤 이동수단을 사용하고 비용이 얼마나 드는지 알아보자"));
+        models.add(new ViewPager_Model(R.drawable.spring, "S/S", "산뜻한 봄과 더운 여름에 어울리는 예쁜 옷"));
+        models.add(new ViewPager_Model(R.drawable.fall, "F/W", "선선한 가을과 추운 겨울에 어울리는 멋진 옷"));
 
         adapter = new Sunny_Dress_ViewPager_Adapter(models,this);
 

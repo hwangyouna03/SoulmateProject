@@ -122,6 +122,11 @@
                         android:text="  0507-1441-5562"
                         android:textSize="15sp"/>
                 </TableRow>
+                <com.naver.maps.map.MapView
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/maps"/>
+
                 <TableRow
                     android:layout_marginTop="5dp"
                     android:layout_span="2"

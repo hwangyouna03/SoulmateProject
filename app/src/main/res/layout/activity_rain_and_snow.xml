@@ -9,9 +9,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="660dp"
+        android:layout_height="0dp"
+        android:layout_weight="8"
         android:gravity="center"
-        android:text="오늘은 비 혹은 눈이 오는 날이네요.\n오늘 같이 운치 있는 날 어디로 떠나버리고 싶지 않으신가요??\n운치 있는 분위기와 어울리는 장소, 음식, 옷을 준비해봤어요\n\n오늘 하루 비와 눈처럼 행복이 가득 내리는 하루 보내세요!" />
+        android:text="오늘은 비 혹은 눈이 오는 날이네요ㅠ\n오늘 같이 운치 있는 날 어디로 떠나버리고 싶지는 않으신가요?\n운치있는 분위기와 어울리는 장소, 음식, 옷을 준비해봤어요. \n오늘 하루, 비와 눈처럼 행복이 가득 내리는 하루 보내세요!"/>
 
     <LinearLayout
         android:layout_width="match_parent"

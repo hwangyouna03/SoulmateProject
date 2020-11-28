@@ -53,32 +53,18 @@ public class Rain_and_Snow_Dress_ViewPager_Adapter extends PagerAdapter {
         desc.setText(models.get(position).getDesc());
 
 
-//        view.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (position==0) {
-//                    Intent intent = new Intent(context, TargetActivity.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    context.startActivity(intent);
-//
-//                }
-//                else if(model.getTitle() == ""){
-//                    Intent intent = new Intent(context, HomeActivity.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    context.startActivity(intent);
-//                }
-//                else if(model.getTitle() == ""){
-//                    Intent intent = new Intent(context, MartActivity.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    context.startActivity(intent);
-//                }
-//                else if(model.getTitle() == ""){
-//                    Intent intent = new Intent(context, CarActivity.class);
-//                    //intent.putExtra("param", models.get(position).getTitle());
-//                    context.startActivity(intent);
-//                }
-//            }
-//        });
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (position == 0) {
+                    Intent intent = new Intent(v.getContext(), RainAndSnowSS.class);
+                    v.getContext().startActivity(intent);
+                }else if(position == 1){
+                    Intent intent = new Intent(v.getContext(), RainAndSnowFW.class);
+                    v.getContext().startActivity(intent);
+                }
+            }
+        });
 
         container.addView(view, 0);
         return view;

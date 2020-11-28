@@ -16,6 +16,7 @@
         android:layout_marginEnd="177dp"
         android:layout_marginRight="177dp"
         android:text="날씨 검색"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,10 +28,10 @@
         android:layout_height="53dp"
         android:layout_marginStart="70dp"
         android:layout_marginLeft="70dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
-        android:hint="enter text to search"
+        android:hint="다음 지역 코드를 입력하세요"
         app:layout_constraintEnd_toStartOf="@+id/searchbtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
@@ -65,19 +66,19 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="352dp"
+        android:layout_width="357dp"
         android:layout_height="265dp"
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="57dp"
         android:layout_marginRight="57dp"
-        android:text="서울 - 11B10101 / 인천 - 11B20201 / 수원 - 11B20601 / 성남 - 11B20605 / 안양 - 11B20602 / 광명 - 11B10103 /
-과천 - 11B10102 / 평택 - 11B20606 / 오산 - 11B20603 / 의왕 - 11B20609 / 용인 - 11B20612 / 군포 - 11B20610 / 안성 - 11B20611 /
-화성 - 11B20604 / 양평 - 11B20503 / 구리 - 11B20501 / 남양주 - 11B20502 / 하남 - 11B20504 / 이천 - 11B20701 / 여주 - 11B20703 /
-광주 - 11B20702 / 의정부 - 11B20301 / 고양 - 11B20302 / 파주 - 11B20305 / 양주 - 11B20304 / 동두천 - 11B20401 / 연천 - 11B20402 /
-포천 - 11B20403 / 가평 - 11B20404 / 강화 - 11B20101 / 김포 - 11B20102 / 시흥 - 11B20202 / 부천 - 11B20204 / 안산 - 11B20203 /
-백령도 - 11A00101 / 부산 - 11H20201"
+        android:text="서울 - 11B10101 / 인천 - 11B20201 / 수원 - 11B20601 / \n성남 - 11B20605 / 안양 - 11B20602 / 광명 - 11B10103 /\n
+과천 - 11B10102 / 평택 - 11B20606 / 오산 - 11B20603 /\n 의왕 - 11B20609 / 용인 - 11B20612 / 군포 - 11B20610 /\n 안성 - 11B20611 /
+화성 - 11B20604 / 양평 - 11B20503 /\n 구리 - 11B20501 / 남양주 - 11B20502 / 하남 - 11B20504 /\n 이천 - 11B20701 / 여주 - 11B20703 /
+광주 - 11B20702 /\n 의정부 - 11B20301 / 고양 - 11B20302 / 파주 - 11B20305 /\n 양주 - 11B20304 / 동두천 - 11B20401 / 연천 - 11B20402 /\n
+포천 - 11B20403 / 가평 - 11B20404 / 강화 - 11B20101 /\n 김포 - 11B20102 / 시흥 - 11B20202 / 부천 - 11B20204 /\n 안산 - 11B20203 /
+백령도 - 11A00101 / 부산 - 11H20201\n"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"

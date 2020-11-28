@@ -56,6 +56,8 @@ public class Login extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){ //성공했을 때 메인으로 이동
                                     Intent intent = new Intent(Login.this, MainActivity.class);
+                                    Toast.makeText(getApplicationContext(), "로그인되었습니다.",
+                                            Toast.LENGTH_SHORT).show();
                                     startActivity(intent);
 
                                 }else{ //실패 했을때 오류 출력

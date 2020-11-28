@@ -187,6 +187,10 @@
                         android:text="  02-777-6604"
                         android:textSize="15sp"/>
                 </TableRow>
+                <com.naver.maps.map.MapView
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/maps"/>
                 <TableRow
                     android:layout_marginTop="5dp"
                     android:layout_span="2"
@@ -211,56 +215,62 @@
                 android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <TableRow>
-                    <Button
-                        android:id="@+id/starViewbtn"
-                        android:layout_width="180dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:onClick="onClick"
-                        android:backgroundTint="@color/light_gray"
-                        android:textColor="@color/black"
-                        android:text="별점 리뷰"/>
-
-                    <Button
-                        android:id="@+id/blogViewbtn"
-                        android:layout_width="180dp"
-                        android:layout_height="wrap_content"
-                        android:onClick="onClick"
-                        android:backgroundTint="@color/light_gray"
-                        android:textColor="@color/black"
-                        android:text="블로그 리뷰"/>
-                </TableRow>
+                <TextView
+                    android:text="블로그 리뷰"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:text="클릭시 이동합니다"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
             </TableLayout>
-            <FrameLayout
+            <ScrollView
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <LinearLayout
-                    android:id="@+id/starView"
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:id="@+id/blog1"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="테스트 중1"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/blogView"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="사격장 명동 이색데이트::명동 실탄사격장"/>
+                    <Button
+                        android:id="@+id/blog2"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="테스트 중2"/>
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="명동실탄사격장에서 스트레스를 날려버리세요~"/>
+                    <Button
+                        android:id="@+id/blog3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="직장인 스트레스 해소 직빵 실탄 사격장"/>
+                    <Button
+                        android:id="@+id/blog4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="[명동실탄사격장] 실제 총을 쏘는 이색 데이트"/>
+                    <Button
+                        android:id="@+id/blog5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="특별한 경험-명동 실탄사격장"/>
                 </LinearLayout>
-
-            </FrameLayout>
+            </ScrollView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -140,6 +140,10 @@
                         android:text="  "
                         android:textSize="15sp"/>
                 </TableRow>
+                <com.naver.maps.map.MapView
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/maps"/>
                 <TableRow
                     android:layout_marginTop="5dp"
                     android:layout_span="2"
@@ -164,56 +168,62 @@
                 android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <TableRow>
-                    <Button
-                        android:id="@+id/starViewbtn"
-                        android:layout_width="180dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:onClick="onClick"
-                        android:backgroundTint="@color/light_gray"
-                        android:textColor="@color/black"
-                        android:text="별점 리뷰"/>
-
-                    <Button
-                        android:id="@+id/blogViewbtn"
-                        android:layout_width="180dp"
-                        android:layout_height="wrap_content"
-                        android:onClick="onClick"
-                        android:backgroundTint="@color/light_gray"
-                        android:textColor="@color/black"
-                        android:text="블로그 리뷰"/>
-                </TableRow>
+                <TextView
+                    android:text="블로그 리뷰"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:text="클릭시 이동합니다"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
             </TableLayout>
-            <FrameLayout
+            <ScrollView
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <LinearLayout
-                    android:id="@+id/starView"
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:id="@+id/blog1"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="테스트 중1"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/blogView"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="거제도 가볼만한 곳 바람의 언덕"/>
+                    <Button
+                        android:id="@+id/blog2"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="테스트 중2"/>
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="거제도 바람의 언덕 포토존 정리(+핫도그 이전)"/>
+                    <Button
+                        android:id="@+id/blog3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="거제 바람의 언덕 야경 밤드라이브 :)"/>
+                    <Button
+                        android:id="@+id/blog4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="거제 바람의 언덕 풍차보며 힐링하기"/>
+                    <Button
+                        android:id="@+id/blog5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/light_gray"
+                        android:textColor="@color/black"
+                        android:text="거제도 도장포 바람의 언덕 풍차야 잘 지내지!"/>
                 </LinearLayout>
-
-            </FrameLayout>
+            </ScrollView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

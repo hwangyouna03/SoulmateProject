@@ -115,12 +115,16 @@
                         android:text="  0507-1406-9087"
                         android:textSize="15sp"/>
                 </TableRow>
+                <com.naver.maps.map.MapView
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/maps"/>
                 <TableRow
                     android:layout_marginTop="5dp"
                     android:layout_span="2"
                     android:gravity="center">
                     <Button
-                        android:id="@+id/designery_cafe_map"
+                        android:id="@+id/lasiestar_map"
                         android:layout_width="300dp"
                         android:backgroundTint="@color/light_gray"
                         android:text="지도 보기"

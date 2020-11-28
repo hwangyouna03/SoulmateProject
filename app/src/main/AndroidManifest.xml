@@ -10,10 +10,12 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".WeatherActivity"></activity>
+
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/network_config" />
@@ -112,6 +114,9 @@
             android:theme="@style/NoActionbar" />
         <activity
             android:name=".Food.CornCheese"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Food.TwoDotsBakery"
             android:theme="@style/NoActionbar" />
         <activity
             android:name=".Food.Kalguksu"
@@ -329,6 +334,226 @@
         <activity
             android:name=".Food.BltStake"
             android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Dress.OverWool"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Dots"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Flower"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.BigTwist"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Bokashi"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Mohe"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.LamWools"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Colour"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Pastel"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Rollring"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Combi"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Semi"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Wakeu"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Abo"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Popori"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Molly"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.SpanSkirtPants"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Dorin"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.LightLab"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Hurming"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Bermuda"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.EasyHalf"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PinTuck"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.HalfWashing"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.ThinCotton"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PigMunt"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.ComfortHode"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Peoples"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.ImBear"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PeachPangPang"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.SimpleTraing"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Binding"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PocketBoxy"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.LooseFitShortSleeve"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.OverFitShortSleeve"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.IfCanSee"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.HeavyBox"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.ManyColorLSleeve"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.SheepGimo"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.GoodDay"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.ChoiceDaily"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PortLand"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.GimoV"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.AutumnSheep"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Mozic"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.WideBanding"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.DontTakeOff"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.BootsCut"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.CottonPants"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.CheckWide"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.GimoWideSlacks"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.FilpPuff"
+            android:theme="@style/NoActionbar" />
+        <activity
+            android:name=".Dress.TwistPuff"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PuffCuffs"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.FrillLong"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.LooseFit"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.CableCara"
+            android:theme="@style/NoActionbar"/>
+
+        <activity
+            android:name=".Dress.BellaHodeOnepiece"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.PuffLongOnepiece"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.TwistKnit"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.HalfPaulKnit"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.Raitdangra"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.DateBoxT"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.BoxSleeve"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.HalfCropKnit"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.HodeCropZipUp"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.BoxCropHode"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.OverCropKint"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.OverFitFluff"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.UrbanUlspanPaula"
+            android:theme="@style/NoActionbar"/>
+        <activity
+            android:name=".Dress.FourSeasonLooseShortSleeve" />
+        <activity android:name=".RainAndSnowFW" />
+        <activity android:name=".RainAndSnowSS" />
+        <activity android:name=".CloudyFW" />
+        <activity android:name=".CloudySS" />
+        <activity android:name=".SunnyFW" />
+        <activity android:name=".SunnySS" />
+        <!--dress 끝-->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -336,6 +561,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="gn4chdbqug" />
+
     </application>
 
 </manifest>
